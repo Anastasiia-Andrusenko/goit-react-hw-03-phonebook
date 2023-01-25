@@ -7,7 +7,7 @@ export class Filter extends Component {
 
   onInput = (evt) => {
     const filterValue = evt.currentTarget.value.trim();
-    console.log(filterValue);
+    // console.log(filterValue);
     this.props.onFilterInput(filterValue);
   };
 
